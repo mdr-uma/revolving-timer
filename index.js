@@ -7,6 +7,13 @@ class Timer {
         this.startButton.addEventListener('click', this.start)
     }
 
+    start = () => {
+        setInterval(this.tick, 1000)
+    }
+
+    tick = () => {
+        console.log('tick')
+    }
 }
 
 const durationInput = document.querySelector('#duration')
