@@ -8,6 +8,7 @@ class Timer {
     }
 
     start = () => {
+        this.tick()
         setInterval(this.tick, 1000)
     }
 
