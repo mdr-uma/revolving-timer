@@ -1,2 +1,2 @@
 # revolving-timer
-[!timer](timer-demo.gif)
+![timer](timer-demo.gif)
